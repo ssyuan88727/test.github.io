@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="border: 1px black solid; margin: auto; padding: 10px;">
+        <h1>備忘錄</h1>
+        <div>
+            <p>記事</p>
+            <input type="text" id="content">
+        </div>
+        <div>
+            <p>日期</p>
+            <input type="date" name="" id="date">
+        </div>
+        <div>
+            <p>時間</p>
+            <input type="time" name="" id="time">
+        </div><br>
+        <button style="background-color: black; color: white;text-align: center;" id="addBtn">新增</button>
+        <br><br>
+        <button style="background-color: pink; text-align: center;" id="deleteBtn">刪除最舊的</button>
+        <br>
+
+        <div class="item" id="list">
+            <div>
+                <p>內容:</p>
+                <p>時間:</p>
+            </div>            
+        </div>
+    </div>
+
+    <script src="test.js"></script>
+</body>
+</html>
